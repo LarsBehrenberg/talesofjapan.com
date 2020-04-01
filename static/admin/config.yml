@@ -1,6 +1,6 @@
 backend:
-  name: test-repo
-  # repo: W3Layouts/gatsby-starter-delog
+  name: github
+  repo: larsbehrenberg/talesofjapan.com
 media_folder: static/assets
 public_folder: /assets
 collections:
