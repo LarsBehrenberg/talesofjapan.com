@@ -7,15 +7,13 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Delog`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://delog-w3layouts.netlify.com/`,
+    title: `Tales of Japan`,
+    description: `A blog about Japan and its tales and mysteries.`,
+    siteUrl: `https://talesofjapan.netlify.com/`,
     home: {
-      title: `Hi! I'm Delog`,
-      description: `I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)`,
+      title: `Welcome to Tales of Japan,`,
+      description: `read about the tales, mysteries and stories of ancient and modern Japan. From the beginnings of Shintoism, the birth of this country to the introduction of Buddhism and the temples and shrines from today. How did we get here? Why did Buddhism play such a big role in Japanese history? Read about these topics and more in this blog.`,
     },
-    /* W3Layouts domain verification key for contact forms https://my.w3layouts.com/Forms/ */
-    w3l_dom_key: `5e609f7a2d23fCF_Domain_verify` 
   },
   plugins: [
     {
@@ -47,7 +45,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "UA-30027142-1",
+        trackingId: "UA-158747913-2",
         head: true,
       }
     },

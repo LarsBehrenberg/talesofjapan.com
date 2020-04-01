@@ -1,9 +1,8 @@
 import React from "react"
-import {Link} from "gatsby"
 
-export default (props) => (
+export default () => (
   <nav className="navigation"> 
-    <Link to="/contact">Contact</Link>
+    <a href="https://larsbehrenberg.com" target="_blank" rel="noopener">Contact</a>
   </nav>
   
 )
