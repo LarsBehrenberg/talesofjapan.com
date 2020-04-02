@@ -4,6 +4,9 @@ path: /the-story-of-enryakuji-and-tendai-sect
 date: 2020-04-02T04:48:14.967Z
 title: The story of Enryaku-ji and the Tendai sect
 thumbnail: /assets/enryaku-ji-sm.jpg
+metaDescription: >-
+  In the mid 8th century, Emperor Kammu was planning to relocate the capital
+  from Nara after great misfortune and evil spirits were thought ...
 ---
 ## **Saicho, the founder of the Tendai sect**
 
