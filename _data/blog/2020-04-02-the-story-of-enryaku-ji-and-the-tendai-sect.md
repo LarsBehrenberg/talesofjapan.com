@@ -3,6 +3,7 @@ template: BlogPost
 path: /the-story-of-enryakuji-and-tendai-sect
 date: 2020-04-02T04:48:14.967Z
 title: The story of Enryaku-ji and the Tendai sect
+thumbnail: /assets/enryaku-ji-sm.jpg
 ---
 ## **Saicho, the founder of the Tendai sect**
 
