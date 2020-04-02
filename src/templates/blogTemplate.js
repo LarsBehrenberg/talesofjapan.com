@@ -7,7 +7,7 @@ export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, html, fields } = markdownRemark
   return (
     <Layout>
       <Helmet>
@@ -20,13 +20,13 @@ export default function Template({
           {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
               <h1 className="post-title">{frontmatter.title}</h1>
-              <div className="post-meta">{frontmatter.date}</div>
+          <div className="post-meta">{frontmatter.date} - {fields.readingTime.text}</div>
             </div>
           )}
           {!!frontmatter.thumbnail && (
             <div className="post-thumbnail" style={{backgroundImage: `url(${frontmatter.thumbnail})`}}>
               <h1 className="post-title">{frontmatter.title}</h1>
-              <div className="post-meta">{frontmatter.date}</div>
+              <div className="post-meta">{frontmatter.date} - {fields.readingTime.text}</div>
             </div>
           )}
           <div
@@ -49,6 +49,11 @@ export const pageQuery = graphql`
         title
         thumbnail
         metaDescription
+      }
+      fields {
+        readingTime {
+          text
+        }
       }
     }
   }

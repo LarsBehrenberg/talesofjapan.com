@@ -45,6 +45,11 @@ export const pageQuery = graphql`
         node {
           id
           excerpt(pruneLength: 250)
+          fields {
+            readingTime {
+              text
+            }
+          }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             path

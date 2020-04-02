@@ -11,8 +11,8 @@ module.exports = {
     description: `A blog about Japan and its tales and mysteries.`,
     siteUrl: `https://talesofjapan.netlify.com/`,
     home: {
-      title: `Welcome to Tales of Japan,`,
-      description: `read about the tales, mysteries and stories of ancient and modern Japan. From the beginnings of Shintoism, the birth of this country to the introduction of Buddhism and the temples and shrines from today. How did we get here? Why did Buddhism play such a big role in Japanese history? Read about these topics and more in this blog.`,
+      title: `Welcome to Tales of Japan`,
+      description: `Read about the tales, mysteries and stories of ancient and modern Japan. From the beginnings of Shintoism, the birth of this country to the introduction of Buddhism and the temples and shrines from today. How did we get here? Why did Buddhism play such a big role in Japanese history? Read about these topics and more in this blog.`,
     },
   },
   plugins: [
@@ -38,7 +38,9 @@ module.exports = {
         },
         {
           resolve: 'gatsby-remark-emojis',
-        }],
+        },
+        `gatsby-remark-reading-time`
+      ],
       },
     },
     {
