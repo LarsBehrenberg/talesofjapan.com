@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; 2020 Tales of Japan &#124; Built with <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener">Gatsby</a></p>
+        <p>&copy; 2020 Tales of Japan &#124; Built with <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">Gatsby</a></p>
       </footer>
     </div>
   )
