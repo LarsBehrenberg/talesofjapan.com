@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: honen-and-the-pure-land-devotion-jodo-shu
+path: /honen-and-the-pure-land-devotion-jodo-shu
 date: 2020-04-02T04:59:59.296Z
 title: Honen and the Pure Land Devotion Sect
 thumbnail: /assets/higashi-honganji-sm.jpg
