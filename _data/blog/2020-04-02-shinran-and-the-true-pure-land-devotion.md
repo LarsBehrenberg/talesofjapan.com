@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /shinran-and-the-pure-land-devotion-jodoshin-shu
-date: 2020-04-02T05:11:02.446Z
+date: 2020-04-02T04:51:00.000Z
 title: Shinran and the True Pure Land Devotion
 thumbnail: /assets/buddha-sm.jpg
 metaDescription: >-
